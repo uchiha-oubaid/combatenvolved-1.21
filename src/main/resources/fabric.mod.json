@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "combatenvolved",
-	"version": "${version}",
+	"version": "1.0",
 	"name": "CombatEnvolved",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds many ways to enjoys minecraft combat",
 	"authors": [
-		"Me!"
+		"lOobaid"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
