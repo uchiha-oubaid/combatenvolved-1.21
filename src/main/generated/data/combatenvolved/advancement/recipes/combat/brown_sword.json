@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combatenvolved:brown_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "combatenvolved:brown_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "combatenvolved:brown_sword"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combatenvolved:brown_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "combatenvolved:brown_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "combatenvolved:brown_pickaxe"
+    ]
+  }
+}

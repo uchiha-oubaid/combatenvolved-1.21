@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combatenvolved:brown_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "combatenvolved:brown_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_leggings"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "combatenvolved:brown_leggings"
+    ]
+  }
+}

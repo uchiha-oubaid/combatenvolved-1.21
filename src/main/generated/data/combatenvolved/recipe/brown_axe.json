@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "combatenvolved:brown_dust"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " BB",
+    " SB",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "combatenvolved:brown_axe"
+  }
+}
