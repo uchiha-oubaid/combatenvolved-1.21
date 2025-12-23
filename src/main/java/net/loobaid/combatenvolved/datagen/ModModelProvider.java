@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WOODEN_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.STONE_SPEAR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BROWN_DUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLAZED_BROWN_STAFF, Models.HANDHELD);
         // the tools
         itemModelGenerator.register(ModItems.BROWN_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BROWN_PICKAXE, Models.HANDHELD);

@@ -13,10 +13,12 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block BROWN_STONE = registerModBlocks("brown_stone",
-            new Block(AbstractBlock.Settings.create().nonOpaque().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().nonOpaque().strength(3f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     public static final Block BROWN_DEEPSLATE = registerModBlocks("brown_deepslate",
-            new Block(AbstractBlock.Settings.create().nonOpaque().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+            new Block(AbstractBlock.Settings.create().nonOpaque().strength(4f).requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block BROWN_BLOCK = registerModBlocks("brown_block",
             new Block(AbstractBlock.Settings.create().nonOpaque().strength(4f).requiresTool()));

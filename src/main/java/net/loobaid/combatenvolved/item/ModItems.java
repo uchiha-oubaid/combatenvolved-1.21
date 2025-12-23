@@ -3,12 +3,20 @@ package net.loobaid.combatenvolved.item;
 import net.loobaid.combatenvolved.CombatEnvolved;
 import net.loobaid.combatenvolved.item.custom.ModArmorMaterials;
 import net.loobaid.combatenvolved.item.custom.ModtoolMaterials;
+import net.loobaid.combatenvolved.item.custom.items.BlazedBrownStaffItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+
+    public static final Item BLAZED_BROWN_STAFF = registerModItems("blazed_brown_staff",
+            new BlazedBrownStaffItem(new Item.Settings().maxCount(1)));
+
+    public static final Item SCYTHE = registerModItems("scythe",
+            new AxeItem(ToolMaterials.STONE, (new Item.Settings().maxCount(1).attributeModifiers(
+                    AxeItem.createAttributeModifiers(ToolMaterials.STONE, 3, -2.4F)))));
 
     public static final Item BROWN_DUST = registerModItems("brown_dust",
             new Item(new Item.Settings()));

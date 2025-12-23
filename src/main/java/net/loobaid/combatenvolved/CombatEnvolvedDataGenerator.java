@@ -16,10 +16,13 @@ public class CombatEnvolvedDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
         pack.addProvider(ModModelProvider::new);
-        pack.addProvider(ModRegistryProvider::new);
         pack.addProvider(ModRecipeProvider::new);
+
+        // even this for line 24
+        pack.addProvider(ModRegistryProvider::new);
 	}
 
+    // this is for the configured and placed features
     @Override
     public void buildRegistry(RegistryBuilder registryBuilder) {
         // the configured features

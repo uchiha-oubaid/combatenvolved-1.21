@@ -17,7 +17,7 @@ public class ModItemGroups {
     public static final ItemGroup COMBAT_ENVOLVED_ITEM_GROUP =
             Registry.register(Registries.ITEM_GROUP, Identifier.of(CombatEnvolved.MOD_ID),
                     FabricItemGroup.builder()
-                            .icon(() -> new ItemStack(ModItems.WOODEN_SPEAR))
+                            .icon(() -> new ItemStack(ModItems.BROWN_DUST))
                             .displayName(Text.translatable("item_group.combat_envolved"))
                             .entries((displayContext, e) -> {
                                 e.add(ModItems.WOODEN_SPEAR);
@@ -37,6 +37,9 @@ public class ModItemGroups {
                                 e.add(ModItems.BROWN_CHESTPLATE);
                                 e.add(ModItems.BROWN_LEGGINGS);
                                 e.add(ModItems.BROWN_BOOTS);
+
+                                e.add(ModItems.SCYTHE);
+                                e.add(ModItems.BLAZED_BROWN_STAFF);
                             })
                             .build());
 
