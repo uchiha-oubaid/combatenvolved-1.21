@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
+    
     public static final Item BLAZED_BROWN_STAFF = registerModItems("blazed_brown_staff",
             new BlazedBrownStaffItem(new Item.Settings().maxCount(1)));
 
